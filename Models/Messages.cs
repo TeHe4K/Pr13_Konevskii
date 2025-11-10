@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pr13.Models
 {
-    internal class Messages
+    public class Messages
     {
         public int Id { get; set; }
         public string Message { get; set; }
