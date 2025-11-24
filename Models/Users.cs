@@ -11,6 +11,10 @@ namespace Pr13.Models
         public int Id { get; set; }
         public string FIO { get; set; }
         public Users() { }
-        public Users(int Id, string FIO) { }
+        public Users (int Id, string FIO)
+        {
+            this.Id = Id;
+            this.FIO = FIO;
+        }
     }
 }

@@ -8,7 +8,7 @@
     <Grid Height="69" Background="Black" Margin="5">
         <Border CornerRadius="15" Width="30" Height="30" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Border.Background>
-                <ImageBrush ImageSource="C:\Users\student-a502.PERMAVIAT\source\repos\Pr13\Images\aooshchepkov.jpg" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="C:\Users\student-a502.PERMAVIAT\source\repos\TeHe4K\Pr13_Konevskii\Images\aooshchepkov.jpg" Stretch="UniformToFill"/>
             </Border.Background>
         </Border>
         <TextBlock x:Name="Message" Margin="45,5,5,25" Padding="5" TextWrapping="Wrap" Text="Привет, как дела?" Foreground="White"/>

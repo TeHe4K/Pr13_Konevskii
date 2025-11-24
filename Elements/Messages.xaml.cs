@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Pr13.Classes;
 
 namespace Pr13.Elements
@@ -29,7 +17,7 @@ namespace Pr13.Elements
             Message.Text = messages.Message;
             Date.Text = messages.Create.ToString("dd.MM.yyyy");
         }
-        private void DeleteMessage(Object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void DeleteMessage(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             ThisMessage.Delete();
             MainWindow.mainWindow.parentMessage.Children.Remove(this);

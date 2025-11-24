@@ -13,6 +13,11 @@ namespace Pr13.Models
         public DateTime Create {  get; set; }
         public int IdUser { get; set; }
         public Messages() { }
-        public Messages(string Message, DateTime Create, int IdUser) { }
+        public Messages(string Message, DateTime Create, int IdUser) 
+        {
+            this.Message = Message;
+            this.Create = Create;
+            this.IdUser = IdUser;
+        }
     }
 }
